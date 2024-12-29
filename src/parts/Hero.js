@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable import/extensions */
 import React from "react";
 
 import { Fade } from "react-awesome-reveal";
@@ -19,8 +16,7 @@ export default function Hero() {
         </h1>
 
         <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
-          We provide developers & designers using latest technologies to help
-          you scale up your business.
+          We provide developers & designers using latest technologies to help you scale up your business.
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
@@ -36,12 +32,7 @@ export default function Hero() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Button>
         </Fade>

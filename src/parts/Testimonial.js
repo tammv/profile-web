@@ -1,23 +1,14 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable react/jsx-boolean-value */
-// eslint-disable-next-line react/no-array-index-key
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable import/extensions */
+import React from "react";
 
-import React from 'react';
+import { Fade } from "react-awesome-reveal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
 
-import { Fade } from 'react-awesome-reveal';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import {
-  Navigation, Pagination, Scrollbar, A11y, Autoplay,
-} from 'swiper/modules';
-
-import 'swiper/swiper-bundle.css';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/swiper-bundle.css";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Testimonial({ data }) {
   return (
@@ -26,9 +17,7 @@ export default function Testimonial({ data }) {
         <h1 className="text-5xl text-theme-blue text-center font-bold">Testimonials</h1>
       </Fade>
       <Fade direction="up" delay={500}>
-        <p className="font-light text-lg text-gray-400 text-center mb-3 sm:mb-3 xl:mb-4">
-          What they said about us.
-        </p>
+        <p className="font-light text-lg text-gray-400 text-center mb-3 sm:mb-3 xl:mb-4">What they said about us.</p>
       </Fade>
       {/* eslint-disable-next-line react/jsx-max-props-per-line */}
       <Swiper
@@ -48,9 +37,7 @@ export default function Testimonial({ data }) {
                   <p className="font-light text-gray-400">{item.company}</p>
                 </div>
               </div>
-              <p className="font-light text-2xl text-gray-400 pl-5 pt-3 pb-1">
-                {item.testimoni}
-              </p>
+              <p className="font-light text-2xl text-gray-400 pl-5 pt-3 pb-1">{item.testimoni}</p>
             </div>
           </SwiperSlide>
         ))}

@@ -1,12 +1,8 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable import/extensions */
-/* eslint-disable max-len */
-/* eslint-disable react/jsx-filename-extension */
-import React from 'react';
+import React from "react";
 
-import { Fade } from 'react-awesome-reveal';
+import { Fade } from "react-awesome-reveal";
 
-import heroPortfolio from 'assets/images/hero/portfolioHero.png';
+import heroPortfolio from "assets/images/hero/portfolioHero.png";
 
 export default function HeroPortfolio() {
   return (
@@ -17,7 +13,8 @@ export default function HeroPortfolio() {
         </Fade>
         <Fade direction="up" triggerOnce delay={400}>
           <p className="font-light text-xl text-gray-400 leading-relaxed">
-            As a Software House that designs and develops websites, mobile apps, and UI/UX design, we have been trusted by our clients from all around the world.
+            As a Software House that designs and develops websites, mobile apps, and UI/UX design, we have been trusted
+            by our clients from all around the world.
           </p>
         </Fade>
       </div>
