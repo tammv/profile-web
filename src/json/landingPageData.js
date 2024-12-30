@@ -43,12 +43,12 @@ export const Services = [
     animation: "left",
   },
   {
-    title: "Mobile Development",
+    title: "QA/QC/Tester",
     imageUrl: Mobile,
     animation: "up",
   },
   {
-    title: "UI/UX Design",
+    title: "BA/SM/PM",
     imageUrl: UIUX,
     animation: "right",
   },
